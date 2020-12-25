@@ -1,8 +1,10 @@
-from django.shortcuts import render
-
-from django.http import HttpResponse
+from django.views.generic.base import TemplateView
 
 
+class HomePageView(TemplateView):
 
-def index(request):
-    return render('Challenger.html', c)
+    template_name = "home.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        return context
