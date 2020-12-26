@@ -1,7 +1,11 @@
 from django.urls import path
 
-from carpediem.views import HomePageView
+from home import views
+
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
-    path('', HomePageView.as_view(), name='home'),
+    # ex: /polls/
+    path('', views.index, name='index'),
 ]
