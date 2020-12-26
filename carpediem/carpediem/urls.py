@@ -7,5 +7,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     # ex: /polls/
-    path('', views.index, name='index'),
-]
+    path('', views.index, name='home'),
+    
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
