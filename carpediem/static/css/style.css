@@ -46,8 +46,8 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  width: 40px;
-  height: 40px;
+  width: 0px;
+  height: 0px;
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
@@ -71,7 +71,7 @@ a:hover {
 }
 
 #main {
-  margin-top: 90px;
+  margin-top: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -1065,7 +1065,7 @@ section {
 }
 
 .team .member .member-info {
-  position: absolute;
+  position:absolute;
   top: 85%;
   left: 20px;
   right: 20px;
