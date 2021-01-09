@@ -82,7 +82,7 @@ a:hover {
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-  background: rgba(103, 176, 209, 0.8);
+  background: rgba(103, 176, 209, 0.831);
 }
 
 #header.header-transparent {
@@ -105,7 +105,7 @@ a:hover {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
+  color: rgb(166, 220, 170);
   text-decoration: none;
 }
 
@@ -525,7 +525,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center no-repeat;
+  background: url("../img/cta-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -774,6 +774,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  background: url("../img/IMG_0644.jpg")center center no-repeat;
+  
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
